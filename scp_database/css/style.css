@@ -1,0 +1,148 @@
+
+
+.content{
+    padding-left: 25%;
+    padding-right: 25%;
+    max-width: 1020px;
+    margin: auto;
+}
+@media screen and (max-width: 600px){
+    .content{
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 60px;
+        margin: auto;
+    }
+}
+
+nav{
+    padding: 3px 10px;
+    overflow: hidden;
+    background-color: #b01;
+
+}
+
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
+}
+
+h1{
+	font-size: 190%;
+    font-weight: normal;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    background: #600;
+}
+h2{
+	font-weight: normal;
+    font-size: 150%;
+    color: #b01;
+    text-decoration: none;
+    background: transparent;
+
+}
+h3{
+	font-weight: bold;
+    font-size: 130%;
+    color: #600;
+}
+h4{
+	font-weight: bold;
+    font-size: 120%;
+    color: #600;
+}
+h5 {
+	font-weight: bold;
+    font-size: 100%;
+    color: #b01;
+}
+h6 {
+	font-weight: bold;
+    font-size: 90%;
+    color: #b01;
+}
+
+img{
+    border-width: 0px;
+    max-width: 100%;
+}
+
+p{
+    text-align: left;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 90%;
+      padding: 10px;
+      float: left;
+    }
+  }
+
+.report{
+    padding-left: 5px;
+    padding-right: 2px;
+    position: inherit;
+    overflow: auto;
+    height:300px;width: auto;
+    background-color: black;
+    color: chartreuse;
+
+}
+
+.text-wrap{
+    float: right;
+    margin: 10px;
+}
+
+li{
+    text-align: left;
+}
+
+
+
+
+
+
+
+footer{
+	margin-top: 50px;
+	padding: 3px 10px;
+	clear: both; 
+    overflow: hidden;
+    background-color: #b01;
+    position: fixed;
+    left: 0; bottom: 0; width: 100%;
+}
+@media screen and (max-width: 600px) {
+    footer{
+        margin-top: 50px;
+        padding: 3px 10px;
+        clear: both; 
+        overflow: hidden;
+        background-color: #b01;
+        left: 0; bottom: 0; width: 100%;
+    }}
+
+footer p {
+    color:#600;
+	margin: 0.2em 0;
+	padding: 0;	
+}
